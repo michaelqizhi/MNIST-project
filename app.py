@@ -27,7 +27,7 @@ def connect_cassandra():
 
 
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/', methods=['POST'])
 def upload_file():
     #user submit a form
     if request.method == 'POST':
